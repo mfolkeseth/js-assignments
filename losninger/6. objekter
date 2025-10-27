@@ -1,0 +1,74 @@
+# Objekter
+
+## Enkle objekter
+
+1. Lag et objekt som beskriver en brukerprofil
+
+  - firstName
+  - lastName
+  - age
+  - isActive
+
+```javascript
+const userProfile = {
+    firstName: 'John',
+    lastName: 'Doe',
+    age: 30,
+    isActive: true
+};
+```
+
+2. Skriv ut brukerens fulle navn
+
+```javascript
+console.log(userProfile.firstName + ' ' + userProfile.lastName);
+```
+
+3. Bruk template strings til å skrive ut "John Doe er 30 år gammel"
+
+```javascript
+console.log(`${userProfile.firstName} ${userProfile.lastName} er ${userProfile.age} år gammel`)
+```
+
+  * Hva er spesielt med template strings?
+
+4. Legg til en `email` property til objektet
+
+```javascript
+userProfile.email = 'john.doe@example.com';
+```
+
+5. Sett `isActive` til `false`
+
+```javascript
+userProfile.isActive = false;
+```
+
+
+## Komplekse objekter
+
+1. Hva tenker du er et komplekst objekt?
+
+```javascript
+const company = {
+    name: 'Acme Corp',
+    employees: 500,
+    details: {
+        location: 'San Francisco',
+        foundedYear: 2005,
+        isPublic: false
+    }
+};
+```
+
+2. Skriv ut `location`
+
+```javascript
+console.log(company.details.location);
+```
+
+3. Hent ut `foundedYear` uten å bruke `.`-notasjon.
+
+4. Hent ut `foundedYear`og lagre den som en variabel.
+
+5. Legg til `phoneNumber` i `details`
