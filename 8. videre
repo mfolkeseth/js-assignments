@@ -1,0 +1,25 @@
+# Fundamentals sammensatt
+
+## Strengmanipulering 
+
+## 1. Gitt en variabel med verdien "   HeLLo WoRlD   ". 
+Formater strengen slik at den blir "Hello World".
+
+
+## 2. Validering av input
+
+Lag en funksjon som tar imot parameterne `id`, `version` og `tags` i følgende formater:
+
+```javascript
+id: <provider>:<app|origin>:<componentName>
+version: <valid_semver_version>
+tags: array of strings
+```
+
+1. Valider at formatet på alle parametere er riktig.
+2. Hvis ikke parameterne er riktig, kast en feil.
+3. Hvis alle parametre er riktig, returner en objekt med formatet:
+4. På hvilke andre måte kan man ta imot parametere i en funksjon?
+5. Hvordan kan man håndtere endringer i parametere på en god måte?
+  1. Man legger legger til et parameter
+  2. Man fjerner et parameter.

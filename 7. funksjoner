@@ -1,0 +1,67 @@
+# Funksjoner
+
+## Enkel funksjoner
+
+1. Lag en funksjon som skriver ut "Hello world! I am a function". Kall funksjonen.
+
+2. Lag en funksjon som tar et navnparameter og skriver ut en hilsen "Welcome, [namme]! Your code awaits". Kall funksjonen.
+
+3. Lag en funksjon som tar to tall og returnerer summen av dem. Kall funksjonen.
+
+---
+
+## Funksjoner som returnerer
+
+1. Lag en funskjon som returner produktet av to tallparametere. Kall funksjonen.
+
+2. Lag en funksjon som tar imot fornavn og etternavn og returnerer fullt navn. Kall funksjonen.
+
+3. Lag en funksjon tom tar imot parametert `quantity`. Hvis `quantity` er større enn 0,
+returner "In stock". Hvis ikke, returner "Out of stock".
+
+---
+
+## Mer funksjoner
+
+1. Lag en variabel `getYear`som inneholder en funksjon med parameteret `age` og 
+returnerer estimert fødselsår (2025 - age).
+
+2. Lag en en-linjet arrow funksjon `double value`, uten `{`. Denne skal returnere
+parameteren `num` * 2.
+
+
+3. Lag en arrow function med `{`.
+
+  * Parameter `price`
+  * kalkulerer mva (pris * 0.10)
+  * Kalkulerer totalen (pris + mva)
+  * Returnerer totalen
+
+
+## Default og scope
+
+1. Default parameteren
+  
+  1. Lag en funksjon som heter `setTheme` med parametere `color` og `mode`.
+  2. `color` skal default være "blue" og `mode` skal default være "light".
+  3. Funksjonen skal returnere "Theme set to: blue, light".
+    * Kjør funksjonen med flere verdier og ingen verdier.
+
+2. Scope
+
+```javascript
+let counter = 10;
+
+function updateCounter() {
+  let counter = 1;
+  console.log(counter);
+}
+
+console.log(counter);
+updateCounter();
+console.log(counter);
+``` 
+
+  1. Hva skjer her?
+  2. Hvorfor ble ikke verdien `counter` endret?
+  
