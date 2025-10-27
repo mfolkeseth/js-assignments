@@ -10,3 +10,5 @@ Javascript assignments
 4. [Løkker](./4.%20lokker.md)
 5. [Lister (Arrays)](./5.%20lister.md)
 6. [Objekter](./6.%20objekter.md)
+7. [Funksjoner](./7.%20funksjoner.md)
+8. [Fundamentals sammensatt](./8.%20videre.md)
